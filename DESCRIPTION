@@ -1,0 +1,20 @@
+Package: survMISA
+Type: Package
+Title: Mediation Identification by Splitting and Aggregation with survival data
+Version: 0.1.0
+Authors@R: c(person('Wangcheng','Li',email = '2290726821@qq.com',role = c('aut','cre')),person('Xu','Guo',role = c('aut')),person('Haojie','Ren',role = c('aut')),person('Changliang','Zou',role = c('aut')))
+Maintainer: The package maintainer <yourself@somewhere.net>
+Description: survMISA is an R package for identifying the most promising mediators within a broad array of candidates for survival data.
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Imports: 
+    foreach,
+    glmnet,
+    iterators,
+    survival
+Suggests: 
+    doParallel,
+    parallel
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.2.3
