@@ -1,10 +1,7 @@
 # survMISA : Mediation Identification by Splitting and Aggregation with survival data
 
 *survMISA* is an R package for identifying the most promising mediators within a broad array of candidates for survival data.
-
-It constructs statistics with symmetry and deploy the symmetry to obtain a data-driven threshold. And it can make inference without p-values and control the false discovery rate.
-
-
+It constructs statistics with symmetry and deploys the symmetry to obtain a data-driven threshold. And it makes inference without p-values and is able to control the false discovery rate.
 
 # Install the package
 
@@ -13,11 +10,15 @@ library(devtools)
 install_github("wangchengLi6/survMISA")
 ```
 
-Dependencies: The `devtools` package is essential obviously. Additionally, the following packages are required: `foreach`, `glmnet`, and `survival`. If parallel computation is needed, we recommend installing the `parallel` and `doParallel` packages.
+Dependencies: The `devtools` package is required for `survMISA` installation. Additionally, the following packages are required: `foreach`, `glmnet`, and `survival` for package's function. If parallel computation is needed, we recommend installing the `parallel` and `doParallel` packages.
 
-Platform Compatibility: We have successfully tested our software on Windows 11 (version >= 4.2.2) and MacOS (version >= 4.0.2). If you plan to use it on Linux, please ensure that you have installed the latest version of R (for assistance, please refer to https://cran.r-project.org/).
+Platform Compatibility: We have successfully tested our software on Windows 11 (R version >= 4.2.2) and MacOS (R version >= 4.0.2). If you plan to use it on Linux, please ensure that you have installed the latest version of R (for assistance, please refer to https://cran.r-project.org/).
 
 If you encounter any other issues during installation, please contact me at 2290726821@qq.com .
+
+# Citation
+
+Still working.
 
 # Example
 
